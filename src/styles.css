@@ -1,0 +1,207 @@
+  
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    padding-top: 60px;
+  }
+  
+  .section {
+    padding: 80px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+
+
+  /* Color Palette */
+body {
+  background-color: #e0f5ff; /* Light Blue */
+  color: #444444; /* Charcoal Gray */
+}
+
+h1, h2 {
+  color: #004080; /* Deep Blue */
+}
+
+a {
+  color: #ff6b6b; /* Coral */
+}
+
+/* Typography */
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+  
+  /* About section styles */
+  .profile-info {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 150px;
+  }
+  
+  .profile-image {
+    border: 5px solid white;
+    border-radius: 50%;
+    max-width: 300px; /* Adjust this value as needed */
+    margin-bottom: 20px; /* Add some space between photo and name */
+  }
+  
+  .profile-info h1 {
+    font-size: 100px; /* Adjust this value as needed */
+    margin: 0;
+    margin-left: 60px; /* Margin for your name */
+  }
+
+  .name {
+    margin-top: 10px; /* Add space between photo and name */
+  }
+  
+  .about-text {
+    text-align: left;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px; 
+  }
+  
+  .about-text h2{
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #333333;
+  }
+
+  .about-text p{
+    font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  line-height: 1.6; 
+  margin-bottom: 20px;
+  }
+
+  .projects-text h2{
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #333333;
+  }
+
+  .contact-text h2{
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #333333;
+  }
+
+  .section-header {
+    text-align: center;
+    color: #333333; /* Deep Blue */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  /* Language card style */
+  .language-card {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .language-logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .soft-skills-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    text-align: left;
+  }
+
+  .soft-skills-list {
+    list-style-type: disc; 
+    padding-left: 20px; 
+  }
+
+  .btn {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
+  /* Contact section styles */
+  .social-icons {
+    margin-top: 20px;
+  }
+  
+  .social-icons img {
+    width: 50px;
+    margin: 0 20px;
+  }
+  
