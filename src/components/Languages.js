@@ -3,37 +3,37 @@ import React from "react";
 const languageData = [
   {
     name: "Python",
-    logo: "/python.svg",
+    logo: process.env.PUBLIC_URL + "/python.svg",
     description: "High-level programming language",
   },
   {
     name: "JavaScript",
-    logo: "/js.svg",
+    logo: process.env.PUBLIC_URL + "/js.svg",
     description: "Client-side scripting language",
   },
   {
     name: "C",
-    logo: "/c.svg",
+    logo: process.env.PUBLIC_URL + "/c.svg",
     description: "General-purpose programming language",
   },
   {
     name: "Assembly",
-    logo: "/assembly.svg",
+    logo: process.env.PUBLIC_URL + "/assembly.svg",
     description: "Low-level programming language",
   },
   {
     name: "VHDL",
-    logo: "/vhdl.svg",
+    logo: process.env.PUBLIC_URL + "/vhdl.svg",
     description: "Hardware description language",
   },
   {
     name: "Java",
-    logo: "/java.svg",
+    logo: process.env.PUBLIC_URL + "/java.svg",
     description: "General-purpose programming language",
   },
   {
     name: "SQL",
-    logo: "/sql.svg",
+    logo: process.env.PUBLIC_URL + "/sql.svg",
     description: "Structured Query Language",
   },
 ];

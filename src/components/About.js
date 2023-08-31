@@ -6,7 +6,7 @@ const About = () => {
       <div className="about-content">
         <div className="profile-info">
           <img
-            // src="./andikha_photo_porto.jpg"
+            // src="/andikha_photo_porto.jpg"
             src={process.env.PUBLIC_URL + "/andikha_photo_porto.jpg"}
             alt="Your Name"
             className="profile-image"
